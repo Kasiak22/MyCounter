@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Counter</string>
+    <string name="start_point">0</string>
+    <string name="start_set">0</string>
+    <string name="b_out">out</string>
+    <string name="b_let">let</string>
+    <string name="b_in">in</string>
+    <string name="PlayA">Player A</string>
+    <string name="PlayB">Player B</string>
+    <string name="Sets">Sets</string>
+    <string name="xyz">Match set</string>
+
+</resources>
