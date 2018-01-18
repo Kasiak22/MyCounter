@@ -20,68 +20,45 @@
 
             <TextView
                 android:id="@+id/display_a_team"
+                style="@style/player"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/PlayA"
-                android:textColor="#1D2F61"
-                android:textSize="22sp" />
+                android:text="@string/PlayA" />
 
             <TextView
                 android:id="@+id/team_a_score"
+                style="@style/point"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/start_point"
-                android:textColor="#000000"
-                android:textSize="32sp" />
+                android:text="@string/start_point" />
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="in"
                 android:text="@string/b_in" />
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="out"
                 android:text="@string/b_out" />
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="let"
                 android:text="@string/b_let" />
 
             <TextView
                 android:id="@+id/team_a_set"
+                style="@style/set"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/start_set"
-                android:textColor="#D1775F"
-                android:textSize="32sp" />
-
+                android:text="@string/start_set" />
 
         </LinearLayout>
 
@@ -89,9 +66,9 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="@dimen/b2_mb"
             android:onClick="resetSet"
             android:text="@string/Sets" />
 
@@ -103,68 +80,46 @@
 
             <TextView
                 android:id="@+id/display_text_view"
+                style="@style/player"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp"
-                android:fontFamily="sans-serif-medium"
-                android:text="@string/PlayB"
-                android:textColor="#1D2F61"
-                android:textSize="22sp" />
+                android:text="@string/PlayB" />
 
             <TextView
                 android:id="@+id/team_b_score"
+                style="@style/point"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/start_point"
-                android:textColor="#000"
-                android:textSize="32sp" />
+                android:text="@string/start_point" />
 
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="inB"
                 android:text="@string/b_in" />
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="outB"
                 android:text="@string/b_out" />
 
             <Button
+                style="@style/Port_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="letB"
                 android:text="@string/b_let" />
 
             <TextView
                 android:id="@+id/team_b_set"
+                style="@style/set"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/start_set"
-                android:textColor="#D1775F"
-                android:textSize="32sp" />
+                android:text="@string/start_set" />
 
         </LinearLayout>
     </LinearLayout>
@@ -175,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/bm_lr"
         android:onClick="reset"
         android:text="@string/xyz" />
 

@@ -7,5 +7,49 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="Land_b">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/bm_bot</item>
+        <item name="android:layout_marginLeft">@dimen/bm_lr</item>
+        <item name="android:layout_marginRight">@dimen/bm_lr</item>
+    </style>
+    <style name="Port_b">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/bm_sm</item>
+        <item name="android:layout_marginLeft">@dimen/bm_lr</item>
+        <item name="android:layout_marginRight">@dimen/bm_lr</item>
+    </style>
+    <style name="player">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/bm_sm</item>
+        <item name="android:layout_marginTop">@dimen/tm</item>
+        <item name="android:textColor">@color/playColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 
+     <style name="point" >
+    <item name="android:layout_gravity">center</item>
+    <item name="android:layout_marginBottom">@dimen/bm_lr</item>
+    <item name="android:fontFamily">sans-serif-light</item>
+    <item name="android:textColor">@color/inTxt</item>
+    <item name="android:textSize">@dimen/large_tx</item>
+</style>
+
+    <style name="set" >
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/bm_lr</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/setColor</item>
+        <item name="android:textSize">@dimen/large_tx</item>
+    </style>
+
+    <style name="point_land" >
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/bm_sm</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/inTxt</item>
+        <item name="android:textSize">@dimen/large_tx</item>
+    </style>
+    
 </resources>

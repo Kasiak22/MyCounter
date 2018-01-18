@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bm_bot">4dp</dimen>
+    <dimen name="bm_lr">24dp</dimen>
+    <dimen name="bm_sm">8dp</dimen>
+    <dimen name="tm">10dp</dimen>
+    <dimen name="text_size">22sp</dimen>
+    <dimen name="large_tx">32sp</dimen>
+    <dimen name="b2_mb">10dp</dimen>
+</resources>
